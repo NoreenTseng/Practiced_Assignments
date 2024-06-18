@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 30%;
+}
+
+.article h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    margin: 5px 0;
+}
+
+.paging-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.paging-bar ul li {
+    margin: 0 5px;
+}
+
+.paging-bar ul li a {
+    padding: 5px 10px;
+    background-color: #123456;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paging-bar ul li a:hover {
+    background-color: #f1f1f1;
+    color: #123456;
+}
